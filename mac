@@ -92,7 +92,7 @@ log_info "Setting $ruby_version as global default Ruby ..."
   rbenv global "$ruby_version"
 
 log_info "Updating to latest Rubygems version ..."
-  gem update --system
+  sudo gem update --system
 
 log_info "Installing Bundler to install project-specific Ruby gems ..."
   gem install bundler

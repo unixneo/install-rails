@@ -44,8 +44,8 @@ log_info "Updating Homebrew formulas ..."
 log_info "Installing Homebrew Services"
   brew tap homebrew/services
 
-log_info "Installing Postgres, a good open source relational database ..."
-  brew install postgres
+log_info "Skipping Installing Postgres, a good open source relational database ..."
+  #brew install postgres
 
 log_info "Starting Postgres ..."
   brew services start postgres

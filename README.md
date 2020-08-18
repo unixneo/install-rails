@@ -44,7 +44,14 @@ What it sets up
 * [MailCatcher][mailcatcher_link] (Linux script only)
 * [ImageMagick][imagemagick_link]
 
-It should take less than 15 minutes to install (depends on your machine).
+macOS Issue
+-----------
+
+macOS Catalina can be tricky to install gems because of the special read-only filesystem areas. You may need to fiddle with permissions to get this to work on macOS.
+
+Do not install as root or the admin.
+
+
 
 Credits
 -------

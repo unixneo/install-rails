@@ -38,6 +38,10 @@ macOS Issues
     Do not install as root or the admin.
     
     sudo chmod -R 777 /Library/Ruby/Gems/2.6.0 makes life a lot easier when developing.
+    
+## Reinstall on Mac
+
+     bash <(curl -s https://raw.githubusercontent.com/unixneo/install-rails/master/mac_reinstall)
 
 What it sets up
 ---------------

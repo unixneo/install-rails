@@ -23,11 +23,21 @@ Run the script:
 
     bash <(wget -qO- https://raw.githubusercontent.com/unixneo/install-rails/master/linux)
 
-### Mac OS X
+### macOS
 
 Run the script:
 
     bash <(curl -s https://raw.githubusercontent.com/unixneo/install-rails/master/mac)
+   
+   
+macOS Issues
+------------
+
+    macOS Catalina can be tricky to install gems because of the special read-only filesystem areas. You may need to fiddle with permissions to get this to work on macOS
+
+    Do not install as root or the admin.
+    
+    sudo chmod -R 777 /Library/Ruby/Gems/2.6.0 makes life a lot easier when developing.
 
 What it sets up
 ---------------
@@ -43,13 +53,6 @@ What it sets up
 * [Bundler][bundler_link]
 * [MailCatcher][mailcatcher_link] (Linux script only)
 * [ImageMagick][imagemagick_link]
-
-macOS Issue
------------
-
-macOS Catalina can be tricky to install gems because of the special read-only filesystem areas. You may need to fiddle with permissions to get this to work on macOS.
-
-Do not install as root or the admin.
 
 
 
